@@ -2,7 +2,8 @@
 
 PyTorch implementation of A lightweight spectral-spatial convolution module for hyperspectral image classification.
 
-![image](fig/dynamic_kernel_generation.png)
+![image](fig/lsscm.png)
+![image](fig/depthwiseConv.png)
 
 # Basic Usage
 
