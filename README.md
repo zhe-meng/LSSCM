@@ -10,7 +10,7 @@ PyTorch implementation of A lightweight spectral-spatial convolution module for 
 ```
 import torch
 from LSSCM import LSSCM_ResNet
-
+# Take the Indian Pines dataset as an example, the number of classes and spectral channels are 16 and 200, respectively.
 model = LSSCM_ResNet(num_classes=16, channels=200)
 model.eval()
 print(model)
